@@ -52,6 +52,7 @@ namespace ConsoleApp1
         }
     }
 
+    //http://www.michael-whelan.net/replacing-appdomain-in-dotnet-core/
     public class AppDomain
     {
         public static AppDomain CurrentDomain { get; private set; }
